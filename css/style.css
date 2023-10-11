@@ -5,12 +5,33 @@
 body {
     background-color: #FFF8EE;
     font-family: 'Roboto', sans-serif;
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
 }
 
 .container {
     max-width: 1124px;
     margin: 0 auto;
     padding: 0 10px;
-    
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.menu {
+    margin-left: auto;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-item  + .menu__list-item {
+    margin-right: 46px;
+
 }
