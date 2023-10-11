@@ -8,6 +8,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 33px;
+    color: #322F2E;
 }
 
 .container {
@@ -32,6 +33,31 @@ body {
 }
 
 .menu__list-item  + .menu__list-item {
-    margin-right: 46px;
+    margin-left: 45px;
+}
 
+.menu__list-link {
+    color: #322F2E;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.user-nav {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.user-nav__link {
+
+color: #FFFFFF;
+font-size: 14px;
+line-height: 20px;
+font-weight: 700;
+padding: 13px 28px;
+border-color: transparent;
+border-radius: 50px;
+text-decoration: none;
+background-color: #C47344;
 }
