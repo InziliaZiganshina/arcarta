@@ -177,6 +177,12 @@ body {
     text-decoration: underline;
 }
 
+.cards {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+    padding-bottom: 136px;
+
+}
+
 .cards__inner {
     display: flex;
     flex-wrap: wrap;
