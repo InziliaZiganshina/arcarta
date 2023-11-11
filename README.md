@@ -5,4 +5,5 @@
   <li>html</li>
   <li>css</li>
   <li>css анимация</li>
+  <! - -адаптив- - >
 </ul>
